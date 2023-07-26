@@ -1,4 +1,33 @@
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.tweets {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.tweet-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tweet-content {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.tweet-datetag {
+    font-size: 14px;
+    color: #888;
 }
