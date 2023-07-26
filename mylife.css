@@ -39,3 +39,15 @@ header {
     color: #888;
     text-align: right;
 }
+
+footer {
+    background-color: #444; /* Dark footer background */
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #f0f0f0; /* Light text color */
+}
