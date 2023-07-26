@@ -47,6 +47,11 @@ header {
     margin-bottom: 5px;
 }
 
+.tweet-content p span.hashtag {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+}
+
 .tweet-datetag {
     font-size: 14px;
     color: var(--secondary-text);
@@ -56,13 +61,13 @@ header {
 footer {
     background-color: var(--background); /* Dark footer background */
     padding: 10px;
+    font-size: 0.9em;
     text-align: center;
     margin-top: auto;
 }
 
 footer p {
     margin: 0;
-    font-size: 14px;
     padding-top: 10px;
     color: var(--secondary-text); /* Light text color */
 }
