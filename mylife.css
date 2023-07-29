@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Fira+Mono&family=Noto+Serif+TC:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Fira+Mono&display=swap');
 
 :root {
     --background: #202124;
@@ -12,7 +12,7 @@
 
 
 body {
-    font-family: Helvetica, 'Gill Sans', 'Gill Sans MT', 'Noto Serif TC', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     background-color: var(--background); /* Dark background */
@@ -43,8 +43,8 @@ header {
 }
 
 .tweet-content {
-    font-family: 'EB Garamond', 'Noto Serif TC', Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
     margin-bottom: 5px;
 }
 
@@ -67,12 +67,12 @@ footer {
     padding: 10px;
     font-size: 0.8em;
     text-align: center;
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 footer p {
-    margin: 0;
-    padding-top: 10px;
+    /* margin: 0; */
+    /* padding-top: 10px; */
     color: var(--secondary-text); /* Light text color */
 }
 
